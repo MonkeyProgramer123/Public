@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "synthetic": true,
+  "entries": [
+    {
+      "layout": "balanced",
+      "edition": "morning",
+      "image": "images/balanced-morning.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    },
+    {
+      "layout": "balanced",
+      "edition": "evening",
+      "image": "images/balanced-evening.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    },
+    {
+      "layout": "minimal",
+      "edition": "morning",
+      "image": "images/minimal-morning.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    },
+    {
+      "layout": "minimal",
+      "edition": "evening",
+      "image": "images/minimal-evening.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    },
+    {
+      "layout": "agenda",
+      "edition": "morning",
+      "image": "images/agenda-morning.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    },
+    {
+      "layout": "agenda",
+      "edition": "evening",
+      "image": "images/agenda-evening.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    },
+    {
+      "layout": "editorial",
+      "edition": "morning",
+      "image": "images/editorial-morning.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    },
+    {
+      "layout": "editorial",
+      "edition": "evening",
+      "image": "images/editorial-evening.png",
+      "width": 1448,
+      "height": 1072,
+      "synthetic": true
+    }
+  ]
+}

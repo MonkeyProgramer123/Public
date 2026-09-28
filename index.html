@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Quatro formas de ver o dia no Kobo Clara HD. Compare oito imagens de demonstração, exportadas pelo renderer do dispositivo.">
+  <title>Kobo — o dia, ao seu ritmo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead"><a class="wordmark" href="#top" aria-label="Kobo Project, início"><span class="logo" aria-hidden="true">k.</span>Kobo Project</a><span class="project-type">Um olhar tranquilo sobre o dia</span><a class="repo" href="https://github.com/MonkeyProgramer123/Kobo_Project">Abrir projeto <span aria-hidden="true">↗</span></a></header>
+  <main id="top">
+    <section class="intro"><div><p class="eyebrow">CLARA HD · HORIZONTAL · E-INK</p><h1>O dia, ao seu ritmo.</h1><p class="lede">Quatro composições. Duas edições. Toda a informação essencial num só olhar.</p></div><aside class="privacy"><span class="privacy-dot" aria-hidden="true"></span><div><strong>Apenas dados de demonstração</strong><p>Agenda, notícias, tempo e jogos são sintéticos. Esta galeria não contém dados pessoais nem confirma o ecrã do aparelho.</p></div></aside></section>
+    <nav class="controls" aria-label="Opções da galeria"><div class="edition-switch" role="group" aria-label="Edição"><button type="button" data-edition="morning" aria-pressed="true">Manhã <span>07:20</span></button><button type="button" data-edition="evening" aria-pressed="false">Fim do dia <span>19:20</span></button></div><div class="right-controls"><label for="scale">Escala</label><select id="scale"><option value="fit">Ajustar à janela</option><option value="native">100% · 1448 × 1072</option></select><button class="both" type="button" id="show-both" aria-pressed="false">Ver as oito</button></div></nav>
+    <section class="gallery" id="gallery" aria-label="Comparação das interfaces"></section>
+    <section class="selection"><div class="selection-number">01—04</div><div><h2>A sua escolha, guardada no projeto.</h2><p>Compare, amplie e descarregue a imagem. Para definir a interface, abra o workflow de seleção no GitHub, escolha uma das quatro opções e execute. A seleção aplica-se na próxima geração e no próximo despertar bem-sucedido.</p><a class="selection-link" href="https://github.com/MonkeyProgramer123/Kobo_Project/actions/workflows/configure.yml">Escolher no GitHub <span aria-hidden="true">↗</span></a></div><p class="selection-note">Selecionada no GitHub, publicada pelo serviço e apresentada no Kobo são estados distintos. Consulte os diagnósticos do projeto.</p></section>
+    <section class="reading-note"><h2>Feito para ficar.</h2><p>As imagens têm exatamente 1448 × 1072 píxeis e usam o mesmo renderer da saída final. Os controlos desta página ficam sempre fora da exportação. A legibilidade e a orientação física precisam de validação no Kobo.</p><p>Os horários são valores iniciais configuráveis, em Europe/Lisbon. O aparelho apresenta uma imagem estática, não um relógio ou resultados em direto.</p></section>
+  </main>
+  <footer><span>Kobo Project</span><a href="https://github.com/MonkeyProgramer123/Kobo_Project/blob/main/docs/sources.md">Fontes e regras do projeto</a><a href="fonts/OFL.txt">Atkinson Hyperlegible · licença OFL</a></footer>
+  <dialog id="preview-dialog"><div class="dialog-bar"><div><strong id="dialog-title"></strong><span>Dados sintéticos · 1448 × 1072</span></div><a id="dialog-download" download>Descarregar PNG</a><button id="close-dialog" type="button" aria-label="Fechar ampliação">Fechar ×</button></div><div class="dialog-image"><img id="dialog-preview" alt=""></div></dialog>
+  <script src="app.js" defer></script>
+</body>
+</html>
