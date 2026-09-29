@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Como o Kobo Dashboard acede, utiliza, guarda e permite apagar os dados da Google Agenda na instalação pessoal privada.">
+  <title>Privacidade — Kobo Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="policy-page">
+  <header class="masthead"><a class="wordmark" href="index.html" aria-label="Kobo Dashboard, início"><span class="logo" aria-hidden="true">k.</span>Kobo Dashboard</a><a class="repo" href="index.html">Voltar à galeria <span aria-hidden="true">↗</span></a></header>
+  <main class="policy-content">
+    <p class="eyebrow">APLICAÇÃO PESSOAL · GRATUITA</p>
+    <h1>Política de privacidade</h1>
+    <p class="policy-date">Atualizada em <time datetime="2026-09-29">29 de setembro de 2026</time></p>
+    <p class="lede">O Kobo Dashboard transforma a agenda do titular e informação pública numa imagem para o seu Kobo. Esta política descreve a instalação pessoal privada e a galeria pública de demonstração.</p>
+
+    <section aria-labelledby="calendar"><h2 id="calendar">Dados da Google Agenda e finalidade</h2>
+      <p>A ligação à Google Agenda depende da autorização do titular. A configuração atual consulta apenas o seu calendário principal, para apresentar os compromissos de hoje e de amanhã. Os feriados nacionais portugueses são calculados localmente, sem acesso a outro calendário.</p>
+      <p>A autorização <code>calendar.events.owned.readonly</code> permite tecnicamente ler eventos nos calendários de que a conta é proprietária. O programa limita as consultas ao calendário principal selecionado. Não cria, altera nem apaga eventos.</p>
+      <p>São pedidos o título, o início e o fim do evento, a indicação de dia inteiro e fuso horário, o estado e identificadores técnicos necessários para tratar recorrências, cancelamentos e duplicados. Os identificadores usados na cache são transformados em resumos criptográficos. Não são pedidas descrições, listas de participantes, locais ou anexos, nem acesso a correio ou outros serviços da conta.</p>
+      <p>Os dados servem apenas para produzir e recuperar o dashboard pessoal. O projeto não vende dados, não os utiliza para publicidade e não os utiliza para treinar modelos de inteligência artificial. A utilização e transferência de dados obtidos das APIs Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Utilizador dos Serviços de API Google</a>, incluindo os requisitos de Uso Limitado.</p>
+    </section>
+
+    <section aria-labelledby="storage"><h2 id="storage">Processamento, acesso e conservação</h2>
+      <p>A geração automática é executada no GitHub Actions do repositório privado do titular. A Google fornece os eventos; o GitHub processa e aloja os ficheiros privados necessários à geração e à entrega da imagem. Os fornecedores de meteorologia, notícias e futebol recebem apenas os pedidos públicos necessários às suas funções, sem títulos ou horários da agenda.</p>
+      <p>As credenciais e o token que renova a autorização Google são guardados nos segredos do projeto. Eventuais cópias locais de credenciais ficam protegidas pelo Windows e fora do Git. O estado de recuperação, incluindo a cache da agenda, é cifrado antes de ser guardado no repositório privado. As imagens privadas exigem autenticação para descarga; não são cifradas individualmente pela aplicação.</p>
+      <p>Em falhas temporárias, a agenda em cache pode ser reutilizada até 24 horas, com indicação da sua antiguidade. Isso não é um prazo de eliminação de todas as cópias. A limpeza automática procura conservar quatro revisões recentes das imagens e do estado; ficheiros legados, falhas de limpeza e cópias de recuperação podem prolongar a conservação até remoção pelo titular.</p>
+      <p>O Kobo guarda a imagem e ficheiros de recuperação para funcionar sem ligação. O seu acesso ao GitHub é de leitura; não recebe o token de renovação da Google. A imagem visível pode permanecer no ecrã e na cache até ser substituída ou apagada. Quem tiver acesso físico ao ecrã poderá ler o que estiver apresentado.</p>
+    </section>
+
+    <section aria-labelledby="revoke"><h2 id="revoke">Retirar o acesso e apagar os dados</h2>
+      <p>O titular pode retirar a ligação do Kobo Dashboard na área de <a href="https://myaccount.google.com/connections">ligações a aplicações e serviços da Conta Google</a>. Uma revogação detetada pelo programa impede novas consultas e retira os eventos da cache operacional da agenda na geração seguinte. Uma alteração da seleção de calendários também invalida a cache anterior.</p>
+      <p>A revogação não apaga automaticamente imagens já produzidas. Para remover as cópias do projeto, o titular deve desativar a geração automática, remover as credenciais Google deste projeto e apagar as imagens, o estado e as cópias de recuperação no repositório privado, nas pastas locais do projeto e na cache do Kobo. Deve também substituir a imagem visível no aparelho. Estas operações dizem respeito às cópias do dashboard; não apagam eventos na Google Agenda.</p>
+    </section>
+
+    <section aria-labelledby="gallery"><h2 id="gallery">Esta galeria pública</h2>
+      <p>A galeria contém apenas imagens sintéticas e documentação estática. Não contém eventos reais, credenciais ou ligações privadas a calendários, não permite iniciar sessão na Google e não consulta a agenda do visitante. O código desta página não inclui publicidade nem ferramentas de análise de visitantes. O alojamento GitHub Pages pode tratar registos técnicos de acesso segundo a <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">política de privacidade do GitHub</a>.</p>
+      <p>O projeto é operado pelo titular da instalação, para uso próprio. Alterações ao acesso ou à finalidade dos dados devem ser refletidas nesta política e autorizadas antes da sua utilização.</p>
+    </section>
+    <nav class="policy-nav" aria-label="Documentação da aplicação"><a href="index.html">Página inicial e galeria</a><a href="terms.html">Condições de utilização</a></nav>
+  </main>
+  <footer><span>Kobo Dashboard · projeto pessoal</span><a href="index.html">Início</a><a href="terms.html">Condições de utilização</a></footer>
+</body>
+</html>
