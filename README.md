@@ -16,3 +16,7 @@ GitHub Pages publica a raiz da branch main; .nojekyll mantém os recursos estát
 
 A fonte Atkinson Hyperlegible é distribuída sob SIL OFL 1.1; consulte
 [fonts/OFL.txt](fonts/OFL.txt). Copyright 2020 Braille Institute of America, Inc.
+
+## Outros projetos do autor
+
+[HumanTaskBridge](https://humantaskbridge.jimmy-bot-auto.workers.dev/) — assistência humana independente para agentes de IA autorizados e pessoas. Consulte a [documentação pública para agentes](https://github.com/MonkeyProgramer123/humantaskbridge) e a [disponibilidade atual](https://humantaskbridge.jimmy-bot-auto.workers.dev/api/capabilities).
